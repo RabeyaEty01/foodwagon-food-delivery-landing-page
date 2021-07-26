@@ -2,7 +2,7 @@
 .card-bg-image-1{
     height:75%;
     width:100%;
-    background-image: url(/images/food-1.jpg);
+    background-image: url(../images/food-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,7 +10,7 @@
 .card-bg-image-2{
     height:75%;
     width:100%;
-    background-image: url(/images/food-2.jpg);
+    background-image: url(../images/food-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,14 +18,14 @@
 .card-bg-image-3{
     height:75%;
     width:100%;
-    background-image: url(/images/food-3.jpg);
+    background-image: url(../images/food-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-bg-image-4{
     height:75%;
     width:100%;
-    background-image: url(/images/food-6.jpg);
+    background-image: url(../images/food-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -56,7 +56,7 @@
 .card-bg-image-5{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/1.jpg);
+    background-image: url(../images/featured-food/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,7 +65,7 @@
 .card-bg-image-6{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/2.jpg);
+    background-image: url(../images/featured-food/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -73,7 +73,7 @@
 .card-bg-image-7{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/3.jpg);
+    background-image: url(../images/featured-food/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,7 +81,7 @@
 .card-bg-image-8{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/4.jpg);
+    background-image: url(../images/featured-food/4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,7 +89,7 @@
 .card-bg-image-9{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/5.jpg);
+    background-image: url(../images/featured-food/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,7 +97,7 @@
 .card-bg-image-10{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/6.jpg);
+    background-image: url(../images/featured-food/6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,7 +105,7 @@
 .card-bg-image-11{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/7.png);
+    background-image: url(../images/featured-food/7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -113,7 +113,7 @@
 .card-bg-image-12{
     height:75%;
     width:100%;
-    background-image: url(/images/featured-food/8.jpg);
+    background-image: url(../images/featured-food/8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -133,7 +133,7 @@
  /* install app section styles */
 
  .install-app-section{
-   background-image: url(/images/banner-5.jpg);
+   background-image: url(../images/banner-5.jpg);
    background-repeat: no-repeat;
    background-size: cover;
     
@@ -141,7 +141,7 @@
  /* before footer sections styles */
 
  .foodwagon-before-footer-section{
-     background-image: url(/images/banner-4.jpg);
+     background-image: url(../images/banner-4.jpg);
      background-repeat: no-repeat;
      background-size:cover;
      
