@@ -2,7 +2,7 @@
 .card-bg-image-1{
     height:75%;
     width:100%;
-    background-image: url(images/food-1.jpg);
+    background-image: url(/images/food-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
