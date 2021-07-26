@@ -1,12 +1,967 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FoodWagon Delivery landing Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- bootsrap cdn links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome links -->
+    <script src="https://kit.fontawesome.com/b64eb6d7b7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand pe-5" href="#">
+                        <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                        <span class="text-warning"><b>Food</b>wagon</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5">
+                            <li class="nav-item">
+                                Deliver to: <i class="fas fa-map-marker-alt text-warning"></i> Current Location
+                                Mohammadpur Bus Stand, Dhaka
+                            </li>
+                        </ul>
+                        <form class="d-flex justify-content-between">
+                            <div class="input-group">
+                                <span class="input-group-text" id="addon-wrapping"><i width="18px" height="18px"
+                                        class="fas fa-search text-warning"></i></span>
+                                <input type="search" class="form-control" placeholder="Search Food" aria-label="Search"
+                                    aria-describedby="addon-wrapping">
+                                <button class="btn rounded shadow" type="button">
+                                    <i class="fas fa-user text-warning"> Login</i>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!-- top banner sections -->
+        <section class="container d-flex justify-content-between bg-warning">
+            <div>
+                <div class="row g-3 pb-4">
+                    <div class="col-md-12 col-lg-7 d-flex">
+                        <div class="row p-5">
+                            <div class="col-12 col-md-12">
+                                <h1 class="text-white"><b>Are you starving?</b></h1>
+                                <p>Within a few clicks,find meals that are accessible near you</p>
+                            </div>
+                            <div class="card rounded-3">
+                                <div class="p-3 pb-0">
+                                    <a style="background-color: rgba(241, 114, 40, 0.1);" href="#"
+                                        class="btn btn-outline-warning"><i class="fas fa-motorcycle foodwagon-title">
+                                            Delivery</i></a>
+                                    <a href="#" class="btn"><i class="fas fa-shopping-bag"> Pickup</i></a>
+                                    <hr>
+                                </div>
+                                <div class="p-3 pt-0 d-flex justify-content-between">
+
+
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="addon-wrapping"><i
+                                                class="fas fa-map-marker-alt foodwagon-title"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter Your Address"
+                                            aria-describedby="addon-wrapping">
+
+                                        <a style="background-color:#F17228;" href="#" class="btn text-white">Find
+                                            Food</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-5 d-flex">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <img class="w-100" src="images/banner-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- food offers sections -->
+        <section class="container my-4">
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-1 rounded-3">
+
+                            <div class="w-25 card-offer-text text-white bg-warning border d-flex rounded-end mb-0">
+                                <h1>15</h1>
+                                <h5>% off</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <h5 class="card-title">Greys Vage</h5>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded p-2 foodwagon-title"> <b>6 Day's Remaining</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-2 rounded-3">
+
+                            <div class="w-25 card-offer-text text-white bg-warning border d-flex rounded-end mb-0">
+                                <h1>10</h1>
+                                <h5>% off</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <h5 class="card-title">Greys Vage</h5>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded p-2 foodwagon-title"> <b>6 Day's Remaining</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-3 rounded-3">
+
+                            <div class="w-25 card-offer-text text-white bg-warning border d-flex rounded-end mb-0">
+                                <h1>25</h1>
+                                <h5>% off</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <h5 class="card-title">Greys Vage</h5>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded p-2 foodwagon-title"> <b>7 Day's Remaining</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-4 rounded-3">
+
+                            <div class="w-25 card-offer-text text-white bg-warning border d-flex rounded-end mb-0">
+                                <h1>20</h1>
+                                <h5>% off</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <h5 class="card-title">Greys Vage</h5>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded p-2 foodwagon-title"> <b>8 Day's Remaining</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- how does it work sections -->
+        <section class="container my-4 foodwagon-work-section">
+            <h1 class="foodwagon-title text-center pt-5">How does it work</h1>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-2 p-5">
+                <div class="col">
+                    <div class="card border-0 foodwagon-work-section">
+                        <i class="fas fa-4x fa-map-marker-alt text-warning text-center"></i>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Select location</h5>
+                            <p class="card-text">Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 foodwagon-work-section">
+                        <i class="fas fa-4x fa-concierge-bell text-warning text-center"></i>
+                        <div class="text-center">
+                            <h5 class="card-title">Choose order</h5>
+                            <p class="card-text">Check over hundreds of menus to pick your favorite food</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 foodwagon-work-section">
+                        <i class="fas fa-4x fa-file-invoice-dollar text-warning text-center"></i>
+                        <div class="text-center">
+                            <h5 class="card-title">Pay advanced</h5>
+                            <p class="card-text">It's quick, safe, and simple. Select several methods of payment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 foodwagon-work-section">
+                        <i class="fas fa-4x fa-cheese text-center text-warning"></i>
+                        <div class="text-center">
+                            <h5 class="card-title">Enjoy meals</h5>
+                            <p class="card-text">Food is made and delivered directly to your home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popular items sections -->
+        <section class="container">
+            <h1 class="text-center">Popular items</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- carousel card section satrt -->
+                        <div class="row row-cols-1 row-col-lg-5 row-cols-md-5 g-2 p-5">
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/1.jpg"
+                                        class="foodwagon-card-img card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cheese Burger</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Burger
+                                                Arena</i></p>
+                                        <h5>$3.88</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/2.jpg"
+                                        class="foodwagon-card-img card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Toffe’s Cake</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Top Sticks
+                                            </i></p>
+                                        <h5>$4.00</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/3.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chicken roll</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Fastfood
+                                                Dine</i></p>
+                                        <h5>$1.88</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/4.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Crispy Sandwitch</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Fastfood
+                                                Dine</i></p>
+                                        <h5>$3.88</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/5.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fish Fry</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Fishy
+                                                Food</i></p>
+                                        <h5>$4.88</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-5 gx-2 p-5">
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/6.png" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Thai Soup</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Foody
+                                                man</i></p>
+                                        <h5>$2.00</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/7.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beef steak</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Steak
+                                                World</i></p>
+                                        <h5>$5.99</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/2.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chocolate Cake</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Cake
+                                                World</i></p>
+                                        <h5>$3.88</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/8.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shrimp Salad</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Foody
+                                                man</i></p>
+                                        <h5>$2.50</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <img src="images/carousel-card/4.jpg" class="card-img-top rounded-3" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cheese Sandwitch</h5>
+                                        <p class="card-text"><i class="fas fa-map-marker-alt text-warning"> Burger
+                                                Arena</i></p>
+                                        <h5>$1.99</h5>
+                                        <div style="background-color:#F17228;" class="w-100 rounded text-center">
+                                            <a href="#" class="btn text-white">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon foodwagon-btn-control rounded-circle" aria-hidden=""></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon foodwagon-btn-control rounded-circle"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- featured items sections -->
+        <section class="container my-4">
+            <h1 class="text-center my-4">Featured Restaurants</h1>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-100 border-0">
+
+                        <div class="card-bg-image-5 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Foodworld</h5>
+                                    <i class="fas fa-star text-warning"> 46</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded-pill p-2 foodwagon-title"> <b>Opens tomorrow</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-6 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/2.jpg" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Pizzahut</h5>
+                                    <i class="fas fa-star text-warning"> 40</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:rgba(241, 114, 40, 0.2);"
+                                class="card-text border rounded-pill p-2 foodwagon-title"> <b>Opens tomorrow</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-7 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/3.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Donuts hut</h5>
+                                    <i class="fas fa-star text-warning"> 20</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-8 rounded-3">
+
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/3.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Donuts hut</h5>
+                                    <i class="fas fa-star text-warning"> 50</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 my-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-9 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/4.jpg" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Ruby Tuesday</h5>
+                                    <i class="fas fa-star text-warning"> 26</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-10 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/5.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Kuakata Fried Chicken</h5>
+                                    <i class="fas fa-star text-warning"> 53</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-11 rounded-3">
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/7.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Red Square</h5>
+                                    <i class="fas fa-star text-warning"> 45</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-bg-image-12 rounded-3">
+
+                            <div class="card-offer-text-2 text-white d-flex rounded-end pt-3 ps-3">
+                                <h5 style="background-color:#F17228;"
+                                    class="w-50 border text-white rounded-3 pt-1 p-1 m-2"><i
+                                        class="fas fa-tag ps-2"></i> 20% off</h5>
+                                <h5 class="text-white bg-warning border rounded-3 p-1 m-2"><i
+                                        class="fas fa-clock ps-2"></i> Fast</h5>
+                            </div>
+                        </div>
+
+                        <div class="card-body ps-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img width="64px" height="64px" src="images/featured-logo/8.jpg" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h5 class="card-title">Taco Bell</h5>
+                                    <i class="fas fa-star text-warning"> 35</i>
+                                </div>
+                            </div>
+                            <br>
+                            <span style="background-color:#ceebb2a6;"
+                                class="card-text border rounded-pill p-2 text-success"> <b>Open Now</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid justify-content-center align-items-center">
+                <button class="foodwagon-view-all-btn btn btn-warning text-white rounded-pill my-4 p-2"
+                    type="button">View All <i class="fas fa-chevron-right"></i></button>
+
+            </div>
+
+
+        </section>
+        <!-- search by food sections -->
+        <section style="background-color:  #FEFAF1;" class="container my-4">
+            <div class="p-3 d-flex justify-content-between">
+                <h2>Search by Food</h2>
+                <div class="d-flex">
+                    <p class="text-warning p-3">View All <i class="fas fa-chevron-right"></i></p>
+                    <i class="fas fa-3x fa-chevron-circle-right text-warning"></i>
+                    <i class="fas fa-3x fa-chevron-circle-left text-warning"></i>
+                </div>
+
+            </div>
+
+            <div class="row gx-4 d-flex justify-content-between my-5 pb-5">
+                <div class="col-6 col-lg-2 col-md-4">
+
+                    <img width="200px" height="200px" src="images/search-food/1.jpg" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Pizza</h5>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <img width="200px" height="200px" src="images/search-food/2.jpg" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Burger</h5>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <img width="200px" height="200px" src="images/search-food/3.png" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Noodles</h5>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <img width="200px" height="200px" src="images/search-food/4.jpg" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Sub-sandiwch</h5>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <img width="200px" height="200px" src="images/search-food/5.jpg" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Chowmein</h5>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <img width="200px" height="200px" src="images/search-food/6.jpg" class="rounded-circle" alt="...">
+                    <h5 class="text-center">Steak</h5>
+                </div>
+            </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!-- install app sections -->
+        <section style="background-color: #FEEFD0;" class="install-app-section container p-5 pe-0 pb-0 my-4">
+
+            <div class="rounded-3 row row-cols-1 row-cols-lg-3 row-cols-md-3 my-5 p-5 pe-0 gx-2">
+                <div class="col">
+                    <div class="h-100 border-0 d-flex">
+
+                        <i style="color: #fb3b00a9;" class="fas fa-4x fa-tags"></i>
+                        <h3>Daily<br>
+                            Discounts
+                        </h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100 border-0 d-flex">
+
+                        <i style="color: #fb3b00a9;" class="fas fa-4x fa-map-marked-alt"></i>
+                        <h2> Live<br>
+                            Tracing</h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100 border-0 d-flex">
+                        <i style="color: #fb3b00a9;" class="fas fa-4x fa-history"></i>
+                        <h2>Quick<br>
+                            Delivery</h2>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class=" foodwagon-phone-image row row-cols-1 row-cols-lg-3 row-cols-md-2 mt-5 my-5 p-5 pb-0">
+                <div class="col">
+                    <div class="h-100 border-0">
+
+                        <img src="images/phone.png" alt="">
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100 border-0">
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="h-100 border-0">
+                        <div class="p-5">
+
+                            <h1 class="card-title">Install the app</h1>
+                            <p>It's never been easier to order food. Look for the finest discounts and you'll be lost in
+                                a world of delectable food.</p>
+                            <div class="ps-5 pe-5 d-flex justify-content-center align-items-center">
+                                <img width="250px" class="img-fluid" src="images/social-media/R.png" alt="">
+                                <img width="250px" class="img-fluid" src="images/social-media/app-store.png" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!-- best deals foods sections -->
+        <section class="container my-4">
+            <div class="row row-cols-1 row-col-lg-1 row-cols-md-1">
+                <div class="col p-5">
+                    <div class="border shadow mb-0 rounded-3" style="max-width: 1200px;">
+                        <div class="row g-4">
+                            <div class="col-md-5 col-lg-5 p-5 ">
+                                <div class="card-body pb-0">
+                                    <h4 class="p-5 pb-0 card-title"> <b>Best deals </b><span class="text-warning">
+                                            <b>Crispy Sandwiches</b></span></h4>
+                                    <p class="ps-5 card-text">Enjoy the large size of sandwiches. Complete
+                                        perfect slice of sandwiches.</p>
+                                </div>
+                                <div style="background-color:#F17228;" class="pb-0 m-5 mb-0 rounded text-center">
+                                    <a href="#" class="btn text-white">Proceed to order <i
+                                            class="fas fa-chevron-right text-white"></i></a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-7 col-lg-7 col-md-auto">
+                                <img src="images/food-4.jpg" class="img-fluid rounded-end shadow" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-5">
+                    <div class="border shadow mb-0 rounded-3" style="max-width: 1200px;">
+                        <div class="row g-4">
+                            <div class="col-md-7 col-lg-7 col-md-auto">
+                                <img src="images/food-5.jpg" class="img-fluid rounded-start shadow" alt="...">
+                            </div>
+                            <div class="col-md-5 col-lg-5 p-5 ">
+                                <div class="card-body pb-0">
+                                    <h4 class="p-5 pb-0 card-title"> <b>Celebrate parties <br> with</b><span
+                                            class="text-warning"> <b>Fried Chicken</b></span></h4>
+                                    <p class="ps-5 card-text">Get the best fried chicken smeared with a lip smacking
+                                        lemon chili flavor. Check out
+                                        best deals for fried chicken.</p>
+                                </div>
+                                <div style="background-color:#F17228;" class="pb-0 m-5 mb-0 rounded text-center">
+                                    <a href="#" class="btn text-white">Proceed to order <i
+                                            class="fas fa-chevron-right text-white"></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-5">
+                    <div class="border shadow mb-0 rounded-3" style="max-width: 1200px;">
+                        <div class="row g-4">
+                            <div class="col-md-5 col-lg-5 p-5 ">
+                                <div class="card-body pb-0">
+                                    <h4 class="p-5 pb-0 card-title"> <b>Wanna eat hot
+                                            <br> & spicy</b><span class="text-warning"> <b>Pizza?</b></span></h4>
+                                    <p class="ps-5 card-text">Pair up with a friend and enjoy the
+                                        hot and crispy pizza pops. Try it
+                                        with the best deals.</p>
+                                </div>
+                                <div style="background-color:#F17228;" class="pb-0 m-5 mb-0 rounded text-center">
+                                    <a href="#" class="btn text-white">Proceed to order <i
+                                            class="fas fa-chevron-right text-white"></i></a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-7 col-lg-7 col-md-auto">
+                                <img src="images/R.jpg" class="img-fluid rounded-end shadow" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+        <!-- before footer sections -->
+        <section class="container foodwagon-before-footer-section">
+            <div class="p-5">
+                <div class="justify-content-center align-items-center">
+                    <h1 class="text-center"> <b>Are you ready to order <br> with the best deals?</b> </h1>
+                    <div class="d-grid justify-content-center align-items-center">
+                        <button style="background-color:#F17228;" class="text-white rounded my-4 p-3"
+                            type="button">Proceed to order<i class="fas fa-chevron-right"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer sections -->
+    <footer style="background-color:#212121;" class="container">
+        <h4 class="p-5 text-white">Our top cities</h4>
+        <div class="p-5 pt-0 container">
+            <div class="row">
+                <div class="col text-white">
+                    <h6>San Francisco</h6>
+                    <h6>Miami</h6>
+                    <h6>San Diego</h6>
+                    <h6>San Diego</h6>
+                    <h6>Long Beach</h6>
+
+                </div>
+                <div class="col text-white">
+                    <h6>Los Angeles</h6>
+                    <h6>Washington DC</h6>
+                    <h6>Seattle</h6>
+                    <h6>Portland</h6>
+                    <h6>Nashville</h6>
+                </div>
+                <div class="col text-white">
+                    <h6>New York City</h6>
+                    <h6>Orange County</h6>
+                    <h6>Atlanta</h6>
+                    <h6>Charlotte</h6>
+                    <h6>Denver</h6>
+                </div>
+                <div class="col text-white">
+                    <h6>Chicago</h6>
+                    <h6>Phoenix</h6>
+                    <h6>Las Vegas</h6>
+                    <h6>Sacramento</h6>
+                    <h6>Oklahoma City</h6>
+                </div>
+                <div class="col text-white">
+                    <h6>Columbus</h6>
+                    <h6>New Mexico</h6>
+                    <h6>Albuquerque</h6>
+                    <h6>Sacramento</h6>
+                    <h6>New Orleans</h6>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="p-5 pt-0 container">
+            <div class="row row-cols-lg-4">
+                <div class="col text-white">
+                    <h4 class="pb-3">Company</h4>
+                    <h6>About us</h6>
+                    <h6>Team</h6>
+                    <h6>Careers</h6>
+                    <h6>Blog</h6>
+
+                </div>
+                <div class="col text-white">
+                    <h4 class="pb-3">Contact</h4>
+                    <h6>Help & Support</h6>
+                    <h6>Partner with us </h6>
+                    <h6>Ride with us</h6>
+                </div>
+                <div class="col text-white">
+                    <h4 class="pb-3">Legal</h4>
+                    <h6>Terms & Conditions</h6>
+                    <h6>Refund & Cancellation</h6>
+                    <h6>Privacy Policy</h6>
+                    <h6>Cookie Policy</h6>
+
+                </div>
+                <div class="col text-white">
+                    <h4 class="pb-3">Follow Us</h4>
+                    <div class="d-flex">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook ps-3"></i>
+                        <i class="fab fa-twitter ps-4"></i>
+                    </div>
+                    <p class="pt-3">Receive exclusive offers in your mailbox</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Your Mail"
+                            aria-label="Enter Your Mail" aria-describedby="button-addon2">
+                        <button style="background-color:#F17228;"
+                            class="btn btn-outline-secondary text-white shadow type=" button"
+                            id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-white d-flex justify-content-between">
+                <p>All rights Reserved <i class="far fa-copyright"></i> Your Company, 2021</p>
+                <p>Made with <i class="fas fa-heart text-warning "></i> by <b>Themewagon</b></p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootsrap script links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
