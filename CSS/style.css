@@ -10,7 +10,7 @@
 .card-bg-image-2{
     height:75%;
     width:100%;
-    background-image: url(images/food-2.jpg);
+    background-image: url(/images/food-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,14 +18,14 @@
 .card-bg-image-3{
     height:75%;
     width:100%;
-    background-image: url(images/food-3.jpg);
+    background-image: url(/images/food-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-bg-image-4{
     height:75%;
     width:100%;
-    background-image: url(images/food-6.jpg);
+    background-image: url(/images/food-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
